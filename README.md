@@ -90,7 +90,6 @@ Entries with non-positive Follower count or Engagement values were excluded.
 **Outlier Filtering**  
 Entries with high follower counts (above the 95th percentile) and low engagement (below the 25th percentile) were removed, as they indicate an anomaly (e.g., inactive or irrelevant influencers).
 
-```python
 # Remove entries with missing or invalid follower or engagement data
 pizza_cleaned = pizza[(pizza['Follower count'] > 0) & (pizza['Engagement'] >= 0)]
 
