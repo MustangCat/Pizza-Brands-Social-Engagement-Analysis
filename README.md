@@ -90,6 +90,9 @@ Entries with non-positive Follower count or Engagement values were excluded.
 **Outlier Filtering**  
 Entries with high follower counts (above the 95th percentile) and low engagement (below the 25th percentile) were removed, as they indicate an anomaly (e.g., inactive or irrelevant influencers).
 
+**Calculated Metric**
+Engagement Efficiency = Engagement / Follower
+
 ---
 
 ## 5. Key Findings
