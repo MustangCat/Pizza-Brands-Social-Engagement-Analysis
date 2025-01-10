@@ -66,7 +66,9 @@ Below is the structure of the dataset used for this analysis:
 Messages are distributed unevenly among the brands:  
   - Pizza Company: **1,210** messages  
   - Pizza Hut: **910** messages  
-  - Domino’s: **154** messages  
+  - Domino’s: **154** messages
+    ![image](https://github.com/user-attachments/assets/891a84dd-d65e-46f5-a05f-8d8fe018c938)
+
 
 - **Analysis**  
 This imbalance is not due to sampling bias, as the time period covered (2 months) was consistent for all brands.
@@ -89,6 +91,8 @@ Entries with non-positive Follower count or Engagement values were excluded.
 
 **Outlier Filtering**  
 Entries with high follower counts (above the 95th percentile) and low engagement (below the 25th percentile) were removed, as they indicate an anomaly (e.g., inactive or irrelevant influencers).
+![image](https://github.com/user-attachments/assets/3941a73a-ebbd-4070-a5f8-86a774cba322)
+
 
 **Calculated Metric**
 Engagement Efficiency = Engagement / Follower
@@ -100,14 +104,22 @@ Engagement Efficiency = Engagement / Follower
 ### **Engagement Insights**
 - **Pizza Company** had the highest average engagement rate per post, significantly outperforming **Pizza Hut** and **Domino’s**. 
 - Posts mentioning **Pizza Hut** had higher engagement during weekends, suggesting a stronger audience connection on leisure days.
+  ![image](https://github.com/user-attachments/assets/8b4f094e-1561-49f0-a3cf-9f47c9082a9e)
+
 - **Domino's** posts showed an interesting trend: although they had the fewest messages, they achieved a high engagement-to-message ratio, highlighting a more niche but active audience.
+  ![image](https://github.com/user-attachments/assets/667eea53-2a6b-46fe-9c0d-2a6ff0ba4ca7)
+
+
 
 ### **Content-Type Patterns**
 - Posts with images, especially featuring the brand logo or food visuals, drove **40% higher engagement** than those without images.
 - Posts with positive sentiment yielded **3x higher engagement rates** compared to neutral or negative posts.
+  ![image](https://github.com/user-attachments/assets/b54330fa-a827-4bb0-9235-80b0e67131c3)
+
 
 ### **Time-Based Trends**
 - Posts between **6 PM and 9 PM** consistently showed higher engagement rates, aligning with dinner-time browsing habits.
+![image](https://github.com/user-attachments/assets/d8b3de41-2845-47df-bd8c-043437b19d82)
 
 ---
 
